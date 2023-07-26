@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  aa_template:
+    build: .
+    env_file:
+      - local.env
+    ports:
+      - 8015:8015
