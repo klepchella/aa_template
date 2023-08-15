@@ -1,2 +1,7 @@
 .idea
-
+__pycache__
+app/__pycache__/*
+.ruff_cache
+.DS_Store
+*.pyc
+tests-report.xml
